@@ -2,6 +2,11 @@
 #include <stdlib.h>
 #include <inttypes.h>
 
+
+/*
+ * This will create a file of any size, filling it with null values by default
+ */
+
 int main(void)
 {
 	FILE *target = NULL;

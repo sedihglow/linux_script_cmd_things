@@ -5,7 +5,6 @@
 	  different variations or setting up differnt linux systems as i run into
 	  it
 
-
 /* RNG SEEDING */
 - Look at building a good function to obtain a seed for RNG.
   - In C in particular

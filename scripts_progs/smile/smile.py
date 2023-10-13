@@ -6,6 +6,10 @@ import sys
 import signal
 import os
 
+# TODO: disable keyboard
+#       cant really do that and send a signal through the keyboard
+#       So disable every key except, ctrl and well,,,, the signal buttons.
+
 bye_falicia = "): | D: | ); | D; | :$ |"
 def sigint_handler(signum, handler):
     print("\n\n Camera and Recording has initiated. HI\n\n")

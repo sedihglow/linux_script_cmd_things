@@ -16,9 +16,12 @@ def sigint_handler(signum, handler):
     sys.exit(0)
 
 if __name__ == "__main__":
-    faces = [":)", "^_^", "-_-", ":P", ";)", "-_-;", "^_^;", "(>^_^)>", "<(^_^<)"]
+    faces = [":)", "^_^", "-_-", ":P", ";)",
+             ".... Compiling ....",
+             "-_-;", "^_^;", "(>^_^)>",
+             "<(^_^)>", "<(^_^<)","^_-", "-_^", "=)"]
 
-    #signal.signal(signal.SIGINT, sigint_handler)
+    signal.signal(signal.SIGILL, sigint_handler)
 
     random.seed()
 
